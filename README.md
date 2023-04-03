@@ -3,19 +3,30 @@ Arranges tetriminos  into a smallest possible square
 
 Example input:
 
-.AA.
-AA..
-....
-....
+. AA .
 
-BBB.
-B...
-....
-....
+AA . .
+
+. . . .
+
+. . . .
+
+
+BBB .
+
+B . . .
+
+. . . .
+
+. . . .
+
 
 Output:
 
-BBB.
-BAA.
-AA..
-....
+BBB .
+
+BAA .
+
+AA . .
+
+. . . .
