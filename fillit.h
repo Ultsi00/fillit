@@ -13,13 +13,13 @@ typedef struct s_cont
 	int		z;
 }	t_cont;
 
-int		tetr_count(int size);
+int	tetr_count(int size);
 void	file_validity(char *buf, int size, int fd);
-int		map_init_size(int tetr);
+int	map_init_size(int tetr);
 char	**tetrs_to_arr(int tetr, char *buf, int i, int j);
 char	*create_map(int x);
-int		**get_coor(int tetr, t_cont cont, int i, int k);
-int		check_tetr_fit(char *map, int i, int j, t_cont cont);
+int	**get_coor(int tetr, t_cont cont, int i, int k);
+int	check_tetr_fit(char *map, int i, int j, t_cont cont);
 char	*fill_map(char *map, int i, int j, t_cont cont);
 char	*clear_map_by_tetr(char *map, int placed, int j, t_cont cont);
 char	*place_coors(int tetr, t_cont cont);
