@@ -1,33 +1,20 @@
-# fillit
-Arranges tetriminos  into a smallest possible square
+# fillit  
+Arranges tetriminos  into a smallest possible square  
+  
+Example input:  
+. AA .  
+AA . .  
+. . . .  
+. . . .  
 
-Example input:
+BBB .  
+B . . .  
+. . . .  
+. . . .  
 
-. AA .
-
-AA . .
-
-. . . .
-
-. . . .
-
-
-
-BBB .
-
-B . . .
-
-. . . .
-
-. . . .
-
-
-Output:
-
-BBB .
-
-BAA .
-
-AA . .
-
-. . . .
+Output:  
+BBB .  
+BAA .  
+AA . .  
+. . . .  
+  
